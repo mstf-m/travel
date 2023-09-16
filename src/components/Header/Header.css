@@ -1,0 +1,18 @@
+.headNav::after{
+    top: 0;
+    left: 0;
+    content: "";
+    width: 0;
+    position: absolute;
+    height: 2px;
+    background-color: #01B39C;
+    transition: 1S cubic-bezier(1, 0, 0, 1);
+}
+
+.headNav:hover::after{
+    width: 100%;
+}
+
+.headNav{
+    @apply hover:cursor-pointer relative px-3 py-5 hover:bg-slate-600
+}

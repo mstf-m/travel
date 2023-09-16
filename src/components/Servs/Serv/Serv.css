@@ -1,0 +1,9 @@
+.service {
+  transition: all 0.8s ease;
+  cursor: pointer;
+}
+
+.service:hover {
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 17%);
+  border-color: white;
+}

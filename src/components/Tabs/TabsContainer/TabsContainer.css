@@ -1,0 +1,14 @@
+.tabCase::after{
+    bottom: -9px;
+    left: 0;
+    content: "";
+    width: 0;
+    position: absolute;
+    height: 2px;
+    background-color: #01b3a7;
+    transition: 1S cubic-bezier(1, 0, 0, 1);
+}
+
+.tabCase:hover::after{
+    width: 100%;
+}
